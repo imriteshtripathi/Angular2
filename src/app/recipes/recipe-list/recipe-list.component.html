@@ -10,17 +10,18 @@
       <li class="list-group-item"
           *ngFor="let recipe of recipes">
         <a href="#">
-          <div class="pull-left">
+          <span class="pull-left">
             <h4 class="list-group-item-heading"> {{recipe.name}} </h4>
             <p class="list-group-item-text"> {{recipe.description}} </p>
+          </span>
         <span class="pull-right">
-          <!--<img-->
+    <!--<img-->
             <!--[src]="recipe.imagePath"-->
             <!--alt="{{recipe.name}}"-->
             <!--class="img-responsive"-->
             <!--style="max-height: 50px;"/>-->
         </span>
-          </div>
+
         </a>
       </li>
 
