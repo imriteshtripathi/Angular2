@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-xl-10">
-    <app-shopping-edit></app-shopping-edit>
+    <app-shopping-edit
+      (ingredientItem)="OningredientAdded($event)"></app-shopping-edit>
     <hr/>
     <ul class="list-group">
       <li class="list-group-item" *ngFor="let ingredient of ingredients">

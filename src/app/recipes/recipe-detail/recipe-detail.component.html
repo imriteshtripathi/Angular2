@@ -1,6 +1,16 @@
 <div class="row">
+  <div class="row">
+    <div class="col-md-12">
+      {{recipe.name}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      {{recipe.description}}
+    </div>
+  </div>
   <div class="col-md-12">
-    <img src="" alt="" class="img-responsive"/>
+    <img src="{{recipe.imagePath}}" alt="" width="100"/>
   </div>
 </div>
 <div class="row">
@@ -22,13 +32,4 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-12">
-   Description
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    Ingredients
-  </div>
-</div>
+
